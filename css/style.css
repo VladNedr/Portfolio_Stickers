@@ -328,3 +328,133 @@
   margin: 0;
   margin-bottom: 16px;
 }
+
+@media (max-width: 992px) {
+  .container {
+    max-width : 760px;
+  }
+  .card {
+    max-width: 45%;
+  }
+  .nav-link:hover {
+    color: #BF7506;
+  }
+  a {
+    cursor: none;
+  }
+  button {
+    cursor: none;
+  }
+}
+@media (max-width: 790px) {
+  .container {
+    max-width: 680px;
+  }
+  .header {
+    gap: 15px;
+  }
+  .header-links {
+    gap: 20px;
+  }
+  .developer {
+    flex-direction: column;
+  }
+  .developer-image {
+    width: 100%;
+    height: 390px;
+    margin-bottom: 20px;
+  }
+  .developer-about {
+    margin-left: 20px;
+  }
+  .feedback-brown-images {
+    width: 20%;
+  }
+}
+@media (max-width: 700px) {
+  .container {
+  max-width: 540px;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+  .navigation {
+    margin-top: 15px;
+  }
+  .header {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .header-strong {
+    font-size: 36px;
+  }
+  .header-heading {
+    font-size: 18px;
+    max-width: 360px;
+  }
+  .portfolio-title {
+    font-size: 38px;
+    margin-left: 0;
+  }
+  .card-content-wrapper {
+    padding: 0;
+  }
+  .card-list {
+    flex-wrap: wrap;
+  }
+  .feedback-brown-images {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    max-width: 90%;
+  }
+  .nav-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .header-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .social-list {
+    gap: 30px;
+    padding-left: 10px;
+  }
+  .cards {
+    flex-direction: column;
+  }
+  .card {
+    max-width: 100%;
+  }
+  .portfolio {
+    margin-bottom: 80px;
+  }
+  .portfolio-title {
+    font-size: 30px;
+  }
+  .developer-hello {
+    font-size: 20px;
+  }
+  .developer-title {
+    font-size: 22px;
+  }
+  .skills-title {
+    font-size: 20px;
+  }
+  .feedback-content {
+    width: 100%;
+  }
+  .input-group {
+    width: 100%;
+  }
+  .input {
+    width: 100%;
+  }
+  .feedback-title {
+    font-size: 28px;
+  }
+}
